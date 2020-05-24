@@ -47,6 +47,8 @@ nav {
   display: inline-block;
   margin-top: 1%;
   margin-right: 1%;
+  position: relative;
+  top: -7px;
 }
 
 /* Headers */
@@ -67,10 +69,11 @@ h3 {
 /* Border */
 .location {
   border: 1px solid;
-  border-color: #c7c7c7;
+  border-color: #a8a8a8;
+  border-bottom: 0;
 }
 
 /* Background Color Change on Hover */
 .location:hover {
-  background-color: #c7c7c7;
+  background-color: #a8a8a8;
 }
